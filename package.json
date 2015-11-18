@@ -1,6 +1,6 @@
 {
   "name": "node-swear",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform node callback style (nodeback) functions into ES6 promise-return function",
   "main": "node-swear.js",
   "directories": {
