@@ -1,5 +1,5 @@
 {
-  "name": "swear",
+  "name": "node-swear",
   "version": "1.0.0",
   "description": "Transform node callback style (nodeback) functions into ES6 promise-return function",
   "main": "swear.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neu-rah/swear.git"
+    "url": "git+https://github.com/neu-rah/node-swear.git"
   },
   "keywords": [
     "ES6",
@@ -24,9 +24,9 @@
   "author": "Rui Azevedo <ruihfazevedo@gmail.com> (http://www.r-site.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/neu-rah/swear/issues"
+    "url": "https://github.com/neu-rah/node-swear/issues"
   },
-  "homepage": "https://github.com/neu-rah/swear#readme",
+  "homepage": "https://github.com/neu-rah/node-swear#readme",
   "engines" : { "node" : ">=4.2.2" },
   "dependencies" : {
     "rbinder":">=1.0.0"

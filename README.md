@@ -1,5 +1,5 @@
-swear
-=====
+node-swear
+==========
 
 Transform node callback style (nodeback) functions into ES6 promise-return function
 
