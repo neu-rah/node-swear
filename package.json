@@ -1,7 +1,7 @@
 {
   "name": "swear",
   "version": "1.0.0",
-  "description": "transform node callback style (nodeback) functions into ES6 promise-return function",
+  "description": "Transform node callback style (nodeback) functions into ES6 promise-return function",
   "main": "swear.js",
   "directories": {
     "test": "test"
@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/neu-rah/swear/issues"
   },
-  "homepage": "https://github.com/neu-rah/swear#readme"
+  "homepage": "https://github.com/neu-rah/swear#readme",
+  "engines" : { "node" : ">=4.2.2" },
+  "dependencies" : {
+    "rbinder":">=1.0.0"
+  }
 }

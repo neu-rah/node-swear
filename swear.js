@@ -9,7 +9,7 @@ var rbinder=require("rbinder");
 rbinder(Function.prototype);//patch all mosule funcitons
 
 //this will patch all fs member functions to have an rbind
-//fs.readFile.constructor.prototype.rbind=Function.prototype.rbind;
+rbinder(fs.readFile.constructor.prototype);
 
 //transform a node callback style function into an ES6 promise-return function
 function swear(nodebacked) {
