@@ -2,7 +2,7 @@
   "name": "node-swear",
   "version": "1.0.0",
   "description": "Transform node callback style (nodeback) functions into ES6 promise-return function",
-  "main": "swear.js",
+  "main": "node-swear.js",
   "directories": {
     "test": "test"
   },
